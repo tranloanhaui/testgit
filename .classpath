@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jackson-jaxrs-base-2.8.4.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jackson-jaxrs-json-provider-2.9.8.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jackson-module-jaxb-annotations-2.9.8.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-common-2.25.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-container-servlet-core-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-core-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-entity-filtering-2.25.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-media-json-jackson-2.25.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-server-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/jersey-servlet-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/Dowloads2/LibrariesEx10/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
