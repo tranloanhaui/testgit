@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>loginuser.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>ServletUser</servlet-name>
+        <servlet-class>Controller.ServletUser</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletCar</servlet-name>
+        <servlet-class>Controller.ServletCar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletCustomer</servlet-name>
+        <servlet-class>Controller.ServletCustomer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletInsurancePackage</servlet-name>
+        <servlet-class>Controller.ServletInsurancePackage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletCar</servlet-name>
+        <url-pattern>/Car</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletCustomer</servlet-name>
+        <url-pattern>/Customer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletInsurancePackage</servlet-name>
+        <url-pattern>/Package</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletUser</servlet-name>
+        <url-pattern>/User</url-pattern>
+    </servlet-mapping>
+</web-app>
